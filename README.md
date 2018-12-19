@@ -1,4 +1,10 @@
 # wel
-#go for the ghpages
+#go for the ghpages branch
 
-#left side middle one
+#left side after the code
+
+
+#open in the pc for editing
+
+
+# for watch normally you can see in mobile also
