@@ -1,2 +1,181 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Wish Sharing | Fest Wishes</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Magic Sharing | Festival Wishes" />
+    <meta property="og:site_name" content="Magic Sharing">
+    <meta property="og:description" content="Send Festival Wish to your loved one." />
+    <meta property="og:image" content="https://statusguy.com/images/home.jpg"/>
+    <meta property="og:url" content="https://statusguy.com/"/>
+     <!--One Signal -->
+     <link rel="manifest" href="/manifest.json" >
+     <script src="" async></script>
+      
+     <script src="https://statusguy.com/OneSignalSDKUpdaterWorker.js" async></script>
+     <script src="https://statusguy.com/OneSignalSDKWorker.js"></script>
+     <!-- CSS  -->
+    <link href='https://statusguy.com/images/icon.png' rel='icon' type='image/x-icon'/>
+    <link href="https://statusguy.com/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="https://statusguy.com/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://statusguy.com/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+<style>
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://statusguy.com/images/font.woff2) format('woff2');
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+p#error-display {
+    color: white !important;
+}
+    span.fwb {
+    color: white !important;
+}
+  .btn:hover, .btn:focus, .btn.focus {
+    color: white !important;
+    text-decoration: none !important;
+    border: none !important;
+    outline: none !important;
+}
+    button.btn.dropdown-toggle.btn-default:focus{
+          border: none !important;
+    outline: none !important;
+    }
+    label.active {
+    font-size: 10px !important;
+}
+       .btn-default:focus, .btn-default.focus {
+    color: #333 !important;
+    background-color: white !important;
+    border-color: #8c8c8c;
+}
+    a.opt:focus {
+     border: none !important;
+    outline: none !important;
+        }
+  a:focus {
+     border: none !important;
+    outline: none !important;
+        }
+    .card-panel {
+    padding: 25px;
+}
+    .container {
+    width: 86%;
+}
+    .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    max-width: 100%;
+}
+</style>
+        <script>
+$(document).ready(function(e) {
+  $('.selectpicker').selectpicker();
+});
+</script>
+<link rel="stylesheet" type="text/css" media="screen" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://statusguy.com/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js"></script>
+<script src="https://statusguy.com/js/materialize.js"></script>
+<script src="https://statusguy.com/js/init.js"></script>
+<script data-rocketsrc="https://statusguy.com/js/materialize.min.js" type="text/rocketscript"></script>
+<script data-rocketsrc="https://statusguy.com/js/main.js" type="text/rocketscript"></script>
+<script data-rocketsrc="https://statusguy.com/js/hoped.min.js" type="text/rocketscript"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+  
+	</head>
+	<body style="background-color: #34495e; margin-top: 5%; ">
+	<form method="GET" action="new.html">
+		<script>
+  function create(){
+	
+	var selected = $("#wishes-select option:selected").val();
+	
+	if(selected == '0'){
+		error = '1';
+		$('#error-display').html('&nbsp;&nbsp;Please Select at Least one Option.');
+		$('#error-display').show();
+		event.preventDefault();
+	}
+  }
+  
+  
+  if ('Notification' in window) {
+  Notification.requestPermission();
+}
+        </script>
+	
+		<div class="row container">
+			
+                                  <div class="col s12 l5 offset-l4">
+
+				<div class="valign card-panel  z-depth-2" style="background-color: #833e8f;">
+					<div class="card-content">
+						<div class="center">
+							<img class="center" src="https://statusguy.com/images/wishes-sharing-2.svg" height="100px" width="100px" alt="Wishes">
+							<img class="center" src="https://statusguy.com/images/wishes-sharing.svg" height="100px" width="100px" alt="Wishes"><br>
+							<h5 class="text-lighten-4 center cd-headline letters type" style="color:#FFFFFF; font-size: 23px;     line-height: normal; margin-top: 13px;">
+								<span>Create Your Wishes. </span> 
+
+						
+							</h5>
+         <br>
+							<div class="input-field col s12 ">
+								<input id="username" onkeydown="validateAlpha();" type="text" class="validate" required="" maxlength="15" name="username" style="    font-size: 16px;" placeholder="Enter Your Name">
+								
+							</div>
+							<div class="input-field col s12">
+								<select id="wishes-select" onchange="selected();" name="wishes-select" style="margin-bottom: 15px; " class="browser-default selectpicker show-tick">
+									<option value="0" hidden=""  selected="">Select Wish</option>
+									<optgroup label="">
+                                <option value="merry" >Merry Christmas</option>
+                                    <option value="new" >Happy New Year</option>
+                                  
+                                    								</select> 
+							</div>
+                            <br>
+     
+<p id="error-display" style="display:none; color: lightgreen !important; font-weight: bold;"></p>
+							<button class="btn waves-effect waves-light primary" onclick="create();" type="submit" style="width:100%;     margin-top: 10px;" name="action">Create</button>
+                         
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</form> 
+	
+
+
+	</body>
 </html>
