@@ -636,7 +636,9 @@ function index4(n) {
     </script>
 <script>
   $(document).ready(function(){
-$("#username").alphanum();
+$("#username").keypress(function(){
+  $("#username").alphanum()
+});
   });
 });
  
