@@ -107,8 +107,7 @@ p#error-display {
 
   </head>
   <body style="background-color: #34495e; margin-top: 5%; " >
-    <script data-cfasync='false' type='text/javascript' src='//p188101.clksite.com/adServe/banners?tid=188101_644834_1&tagid=9'></script>
-    <script data-cfasync='false' type='text/javascript' src='//p188101.clksite.com/adServe/banners?tid=188101_644834_2'></script>
+    <script data-cfasync='false' type='text/javascript' src='//p188101.clksite.com/adServe/banners?tid=188101_644834_3&size=7'></script>
   <form method="GET" action="wishes.html"  onsubmit="return create()" >
     <input id="myText3"type="hidden" name="id" value="1">
   
@@ -636,10 +635,11 @@ function index4(n) {
 
     </script>
 <script>
-  document.getElementById("wishes-select").value="merry";
-  $('#username').on('input', function() {
-  $(this).val($(this).val().replace(/[^a-z0-9]/gi, ''));
+  $(document).ready(function(){
+$("#username").alphanum();
+  });
 });
+ 
 </script>
 <script type="text/javascript"></script>
 <!--script>
