@@ -36,7 +36,7 @@
   </script>
 
   <!-- Facebook Pixel Code -->
-  <!--script>
+  <script>
     ! function(f, b, e, v, n, t, s) {
       if (f.fbq) return;
       n = f.fbq = function() {
@@ -61,12 +61,12 @@
   </script>
   <noscript>
       <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=484222478584974&ev=PageView&noscript=1"/>
-  </noscript-->
+  </noscript>
   <!-- DO NOT MODIFY -->
   <!-- End Facebook Pixel Code -->
-  <!--script>
+  <script>
     fbq('track', 'ViewContent');
-  </script-->
+  </script>
 
   
   
@@ -154,7 +154,14 @@ var name2 = name.split("+");
     var i;
     for(i=0 ; i < name2.length ; i++)
     {
-      name3 += name2[i]+"&nbsp";
+      if(i==0)
+      {
+        name3 = name2[i];
+      }
+      else{
+      
+        name3 += name2[i]+"&nbsp";
+      }
     }
 document.getElementById("byid").innerHTML = "- "+name3;
 document.getElementById("animated-example1").innerHTML = name3;
