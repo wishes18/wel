@@ -17,7 +17,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-  <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js"></script>
+
 
 <style>
 /* fallback */
@@ -102,12 +102,10 @@ p#error-display {
      
 <link rel="stylesheet" type="text/css" media="screen" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="https://statusguy.com/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js"></script>
+
 
   </head>
-  <body style="background-color: #34495e; margin-top: 5%; " >
-    <script data-cfasync='false' type='text/javascript' src='//p188101.clksite.com/adServe/banners?tid=188101_644834_3&size=7'></script>
+  <body style="background-color: #34495e; margin-top: 5%; " onload="create3();" >
   <form method="GET" action="wishes.html"  onsubmit="return create()" >
     <input id="myText3"type="hidden" name="id" value="1">
   
@@ -118,7 +116,8 @@ p#error-display {
         <div class="valign card-panel  z-depth-2" style="background-color: #833e8f;">
           <div class="card-content">
             <div class="center">
-              <script data-cfasync='false' type='text/javascript' src='//p188101.clksite.com/adServe/banners?tid=188101_644834_0'></script>
+              <img class="center" src="https://statusguy.com/images/wishes-sharing-2.svg" height="100px" width="100px" alt="Wishes">
+              <img class="center" src="https://statusguy.com/images/wishes-sharing.svg" height="100px" width="100px" alt="Wishes"><br>
               <h5 class="text-lighten-4 center cd-headline letters type" style="color:#FFFFFF; font-size: 23px;     line-height: normal; margin-top: 13px;">
                 <span>Create Your Wishes. </span> 
 
@@ -202,7 +201,7 @@ p#error-display {
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="pv" onclick="index(-1)">
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev" onclick="index(-1)">
       <span class="glyphicon glyphicon-chevron-left" ></span>
       <span class="sr-only">pvious</span>
     </a>
@@ -296,7 +295,7 @@ Merry Christmas...!
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel2" data-slide="pv" onclick="index2(-1)">
+    <a class="left carousel-control" href="#myCarousel2" data-slide="prev" onclick="index2(-1)">
       <span class="glyphicon glyphicon-chevron-left" ></span>
       <span class="sr-only">pvious</span>
     </a>
@@ -359,9 +358,9 @@ Merry Christmas...!
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarouse3" data-slide="pv" onclick="index3(-1)">
+    <a class="left carousel-control" href="#myCarouse3" data-slide="prev" onclick="index3(-1)">
       <span class="glyphicon glyphicon-chevron-left" ></span>
-      <span class="sr-only">pvious</span>
+      <span class="sr-only">prvious</span>
     </a>
     <a class="right carousel-control" href="#myCarouse3" data-slide="next" onclick="index3(1)">
       <span class="glyphicon glyphicon-chevron-right"></span>
@@ -452,7 +451,7 @@ Happy New Year 2019!
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel1" data-slide="pv" onclick="index2(-1)">
+    <a class="left carousel-control" href="#myCarousel1" data-slide="prev" onclick="index2(-1)">
       <span class="glyphicon glyphicon-chevron-left" ></span>
       <span class="sr-only">pvious</span>
     </a>
@@ -634,15 +633,12 @@ function index4(n) {
 
 
     </script>
-<script>
-  $(document).ready(function(){
-$("#username").keypress(function(){
-  $("#username").alphanum()
+<!--script>
+  document.getElementById("wishes-select").value="merry";
+  $('#username').on('input', function() {
+  $(this).val($(this).val().replace(/[^a-z0-9]/gi, ''));
 });
-  });
-
- 
-</script>
+</script-->
 <script type="text/javascript"></script>
 <!--script>
 $(document).ready(function(){
