@@ -65,7 +65,7 @@
   </script>
   <noscript>
       <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=484222478584974&ev=PageView&noscript=1"/>
-  </noscript>
+  </noscript-->
   <!-- DO NOT MODIFY -->
   <!-- End Facebook Pixel Code -->
   <!--script>
@@ -366,10 +366,12 @@ document.getElementById("myInput").value = window.location.href;
         </a>
     </div>
     <div class="shared">
-      <a id="hello2" href="http://www.facebook.com/sharer/sharer.php?u=https://statusguy.com/gm/roshan"
-      target="_blank">
-<img width="30px" height="30px" src="https://statusguy.com/images/fb_icon.svg"/> Share
-</a>
+      <div class="fb-share-button" 
+    data-href="https://www.your-domain.com/your-page.html" 
+    data-layout="button_count">
+  </div>
+<!--img width="30px" height="30px" src="https://statusguy.com/images/fb_icon.svg"/> Share
+</a-->
     </div>
   </div>
 
@@ -598,9 +600,9 @@ document.getElementById("myInput").value = window.location.href;
     }
   </style>
   <script>
-    var add="?username="+name+"&amp;wishes="+wish+"&amp;image="+first+"&amp;message="+second;
+    var add="?id"=id+"&username="+name+"&amp;wishes="+wish+"&amp;image="+first+"&amp;message="+second;
     document.getElementById("hello").href = "whatsapp://send?text= see th link "+window.location.href;
-    document.getElementById("hello2").href = "http://www.facebook.com/sharer/sharer.php?u=https://wishes.serveblog.net/wishes/wishes.html"+add;
+    document.getElementById("hello2").data-href = "http://www.facebook.com/sharer/sharer.php?u=https://wishes.serveblog.net/wishes/wishes.html"+add;
   </script>
   <!--script>
   $(document).ready(function() {
